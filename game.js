@@ -1,27 +1,30 @@
-let userChoice = prompt("please type rock, paper or scissors").toLowerCase();
-let computer = computerPlay();
-
-function computerPlay () {
-  let arr = ["rock", "paper", "scissors"];
-
-
-return arr[Math.floor(arr.length * Math.random())];
-
-}
-
-
-
-
 function game (playerSelection, computerSelection) {
+
+    
+
   
     let playerScore = 0;
     let computerScore = 0;
     
     
-    //loop
-    while(playerScore < 5 && computerScore < 5) {
     
-    // draw
+    while(playerScore < 5 && computerScore < 5) {
+
+
+    let playerSelection = prompt("please type rock, paper or scissors").toLowerCase();
+    let computerSelection = computerPlay();
+   
+
+    function computerPlay () {
+    let arr = ["rock", "paper", "scissors"];
+
+
+    return arr[Math.floor(arr.length * Math.random())];
+
+    }
+
+    
+    
     
     if(playerSelection == computerSelection){
         console.log("draw");
@@ -54,10 +57,10 @@ function game (playerSelection, computerSelection) {
         console.log("lose");
     }
     
-    if(playerScore == 5) {
+    if(playerScore == 5 && playerScore > computerScore) {
       console.log("Game Winner");
-    }else if(computerScore == 5){
-      console.log("Game Winner");
+    }else if(computerScore == 5 && computerScore > playerScore){
+      console.log("Game Lost");
     }else if(playerScore == 5 && computerScore == 5){
       console.log("Game Draw");
 }
@@ -66,8 +69,5 @@ function game (playerSelection, computerSelection) {
 
 }
 
-
-
-
-game(userChoice, computer);
+game();
 
