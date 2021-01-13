@@ -1,0 +1,55 @@
+body {
+    background-color: #FFBEA7;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 75px;
+    position: relative;
+    top:25px;
+
+}
+
+#scoreboard {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 20px;
+
+
+}
+
+#totalscore {
+    color: #FFFFFF;
+    font-size: 100px;
+}
+
+
+#container {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#rock {
+    position: relative;
+    
+}
+
+#paper {
+    position: relative;
+} 
+
+#scissors {
+    position: relative;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
