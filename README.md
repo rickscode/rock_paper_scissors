@@ -1,5 +1,12 @@
 # Rock Paper Scissors 
 
-Rock paper scissors game for The Odin Project. 
+A rock paper scissors game made with HTML,CSS and Javascript for The Odin Project foundations path. 
 
-Built using HMTL, CSS and JAVASCRIPT.
+Rules:
+
+Player Vs Cpu.
+
+Choose your weapon.
+
+Best out 5 rounds wins the game.
+

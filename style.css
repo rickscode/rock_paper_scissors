@@ -1,49 +1,32 @@
 body {
     background-color: #FFBEA7;
-}
+    }
 
 h1 {
     color: #FFFFFF;
+    font-family: 'Knewave', cursive;
     text-align: center;
-    font-size: 75px;
+    font-size: 70px;
     position: relative;
-    top:25px;
-
-}
+    }
 
 #scoreboard {
+    font-family: 'VT323', monospace;
     display: block;
     text-align: center;
     position: relative;
-    top: 20px;
+    top: -50px;
+    }
 
-
-}
+#roundscore{
+        color: #FFFFFF;
+        font-size: 50px;
+    }
 
 #totalscore {
     color: #FFFFFF;
-    font-size: 100px;
-}
-
-
-#container {
-    text-align: center;
-    position: relative;
-    top: 50px;
-}
-
-#rock {
-    position: relative;
-    
-}
-
-#paper {
-    position: relative;
-} 
-
-#scissors {
-    position: relative;
-}
+    font-size: 75px;
+    }
 
 button {
     background-color: Transparent;
@@ -52,4 +35,21 @@ button {
     cursor:pointer;
     overflow: hidden;
     outline:none;
-}
+    }
+
+#container {
+    text-align: center;
+    position: relative;
+    }   
+
+#rock {
+    position: relative;
+    }
+
+#paper {
+    position: relative;
+    } 
+
+#scissors {
+    position: relative;
+    }

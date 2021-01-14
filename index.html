@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="style.css">
-        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
     <title>Rock Paper Scissors</title>
+    
     </head>
+        
         <body>
+            
             <h1>
                 ROCK PAPER SCISSORS
             </h1>
+                
                 <div id = "scoreboard">
+
+                    <div id="roundscore">ROUND</div>
                     
-                    <div id="totalscore">0</div>
+                    <div id="totalscore">CHOOSE YOUR WEAPON</div>
                     
                 </div>
                 
                 <div id="container">
                     
-                    <button id="rock"><img id="rock" src="buttons/rock.tiff" alt="rock"></button>
+                    <button id="rock"><img id="rock" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="buttons/rock.png" alt="rock" width="300" height="300"></button>
 
-                    <button id="paper"><img id="paper" src="buttons/paper.tiff" alt="paper"></button>
+                    <button id="paper"><img id="paper" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="buttons/paper.png" alt="paper" width="300" height="300"></button>
                     
-                    <button id="scissors"><img id="scissors" src="buttons/scissors.tiff" alt="scissors"></button>
+                    <button id="scissors"><img id="scissors" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="buttons/scissors.png" alt="scissors" width="300" height="300"></button>
                 
                 </div>
-
-                
 
             <script src="game.js"></script>
 
