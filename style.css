@@ -28,6 +28,10 @@ h1 {
     font-size: 75px;
     }
 
+#container {
+    text-align: center;
+    } 
+
 button {
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -37,19 +41,12 @@ button {
     outline:none;
     }
 
-#container {
-    text-align: center;
-    position: relative;
-    }   
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-#rock {
-    position: relative;
-    }
 
-#paper {
-    position: relative;
-    } 
 
-#scissors {
-    position: relative;
-    }
+
+
