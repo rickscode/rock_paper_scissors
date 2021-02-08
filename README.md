@@ -2,6 +2,8 @@
 
 A rock paper scissors game made with HTML,CSS and Javascript for The Odin Project foundations path. 
 
+<a href="https://rickscode.github.io/rock_paper_scissors/" rel="nofollow">Live Demo</a>
+
 Rules:
 
 Player Vs Cpu.
